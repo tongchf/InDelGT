@@ -1,6 +1,6 @@
 # InDelGT: an integrated pipeline for extracting InDel genotypes for genetic mapping in a hybrid population with next generation sequencing data
 # Introduction
-InDelGT is used to extract InDel genotypes across a hybrid population with next generation DNA sequencing data for genetic linkage mapping. It takes three steps as following to finish the whole work.  
+InDelGT is used to extract InDel genotypes across a hybrid population with next generation DNA sequencing data for genetic linkage mapping. The populations include the traditional BC1, BC2, and F2 in imbred lines as well as a hybrid population (CP) in outbred species. It takes three steps as following to finish the whole work.  
            1. Generating parental InDel catalogs;  
            2. Calling InDel genotypes across a hybrid population;  
            3. Analysis of InDel segregation；
