@@ -1,6 +1,6 @@
 # InDelGT: an integrated pipeline for extracting InDel genotypes for genetic mapping in a hybrid population with next generation sequencing data
 # Introduction
-InDelGT is used to extract InDel genotypes across a hybrid population with next generation DNA sequencing data for genetic linkage mapping. The populations include the traditional BC1, BC2, and F2 in imbred lines as well as a hybrid population (CP) in outbred species. It takes three steps as following to finish the whole work.  
+InDelGT is used to extract InDel genotypes across a hybrid population with next generation DNA sequencing data for genetic linkage mapping. The populations include the traditional BC1, BC2, and F2 in inbred lines as well as a hybrid population (CP) in outbred species. It takes three steps as following to finish the whole work.  
            1. Generating parental InDel catalogs;  
            2. Calling InDel genotypes across a hybrid population;  
            3. Analysis of InDel segregation；
@@ -56,5 +56,6 @@ To run InDelGT, users have to download and install the necessary software packag
                 --help|h        help  
 # Test Data
 
-For users to quickly grasp the use of InDelGT, we provide an online test data. All data files can be downloaded in a compressed file as [exampledata.tar.gz](https://figshare.com/articles/dataset/sample_tar_gz/15131649), including a reference genome sequence, the first and second reading files of 2 parents and 20 progeny samples. With the parameter file [parameters.ini](https://github.com/pan-zhiliang/InDelGT/blob/main/InDelGT/parameters.ini) attached at this site, we can perform the analysis process by inputting the command: `perl PathToInDelGT/InDelGT.pl`. When the computing finishes, InDels was divided into 7 segregation types: ab×aa, aa×ab, ab×ab, ab×cc, aa×bc, ab×ac or ab×cd. These InDel genotype data for each segregation type are saved in a separate text file.
+For users to quickly grasp the use of InDelGT, we provide an online test data. All data files can be downloaded in a compressed file as [exampledata.tar.gz](https://figshare.com/articles/dataset/sample_tar_gz/15131649), including a reference genome sequence, the first and second reading files of 2 parents and 20 progeny samples. With the parameter file [parameters.ini](https://github.com/pan-zhiliang/InDelGT/blob/main/InDelGT/parameters.ini) attached at this site, we can perform the analysis process by inputting the command: `perl PathToInDelGT/InDelGT.pl`. When the computing finishes, InDels will generate one InDel genotype file for BC1, BC2, and F2 as aaxab.txt, abxaa.txt, and abxab.txt, respectively, and up to seven files for CP as aaxab.txt, aaxbc.txt, abxaa.txt, abxcc, abxab.txt, abxac.txt, and abxcd.txt.
+
 
