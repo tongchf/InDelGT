@@ -51,6 +51,9 @@ To run InDelGT, users have to download and install the necessary software packag
         Usage: perl InDelGT.pl [Options] <type> -o <directory>
         
         Options:
+                --nocatalog     skip the first step for generating parental InDel catalog
+                --nocall        skip the second step for calling InDel genotypes for all progeny
+                --nofilter      skip the third step for analyzing and filtering InDel genotype data
                 -p  <type>      the type of population: CP;BC1;BC2;F2 (default: CP)
                 -o <directory>  create a directory for storing output file of the InDel genotyping results  
                 --help|h        help  
