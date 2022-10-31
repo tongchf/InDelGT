@@ -61,4 +61,7 @@ To run InDelGT, users have to download and install the necessary software packag
 
 For users to quickly grasp the use of InDelGT, we provide an online test data. All data files can be downloaded in a compressed file as [exampledata.tar.gz](https://figshare.com/articles/dataset/sample_tar_gz/15131649), including a reference genome sequence, the first and second reading files of 2 parents and 20 progeny samples. With the parameter file [parameters.ini](https://github.com/pan-zhiliang/InDelGT/blob/main/InDelGT/parameters.ini) attached at this site, we can perform the analysis process by inputting the command: `perl PathToInDelGT/InDelGT.pl`. When the computing finishes, InDels will generate one InDel genotype file for BC1, BC2, and F2 as aaxab.txt, abxaa.txt, and abxab.txt, respectively, and up to seven files for CP as aaxab.txt, aaxbc.txt, abxaa.txt, abxcc, abxab.txt, abxac.txt, and abxcd.txt.
 
+# References
 
+Pan, Z., J. Zhang, S. Bai, Z. Li, and C. Tong. 2022. InDelGT: An integrated pipeline for extracting indel genotypes for genetic mapping in a hybrid population using next-generation sequencing data. Applications in Plant Sciences 10(6): e11499.
+https://doi.org/10.1002/aps3.11499
